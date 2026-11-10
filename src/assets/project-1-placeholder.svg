@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Vista previa del proyecto CapiFront">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <radialGradient id="glow" cx="28%" cy="18%" r="70%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#27272a" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)" />
+  <rect width="800" height="500" fill="url(#grid)" opacity="0.55" />
+  <rect width="800" height="500" fill="url(#glow)" />
+  <rect x="96" y="86" width="608" height="328" rx="18" fill="#0c0c0e" stroke="#27272a" stroke-width="2" />
+  <path d="M96 136h608" stroke="#27272a" stroke-width="2" />
+  <circle cx="128" cy="111" r="6" fill="#52525b" />
+  <circle cx="150" cy="111" r="6" fill="#52525b" />
+  <circle cx="172" cy="111" r="6" fill="#10b981" />
+  <rect x="128" y="168" width="120" height="14" rx="7" fill="#10b981" fill-opacity="0.75" />
+  <rect x="128" y="206" width="220" height="10" rx="5" fill="#3f3f46" />
+  <rect x="128" y="230" width="176" height="10" rx="5" fill="#3f3f46" />
+  <rect x="128" y="272" width="130" height="100" rx="12" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+  <rect x="274" y="272" width="130" height="100" rx="12" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+  <rect x="420" y="272" width="130" height="100" rx="12" fill="#18181b" stroke="#10b981" stroke-opacity="0.55" stroke-width="1.5" />
+  <rect x="144" y="290" width="64" height="8" rx="4" fill="#10b981" fill-opacity="0.55" />
+  <rect x="144" y="310" width="96" height="7" rx="3.5" fill="#3f3f46" />
+  <rect x="290" y="290" width="64" height="8" rx="4" fill="#52525b" />
+  <rect x="290" y="310" width="96" height="7" rx="3.5" fill="#3f3f46" />
+  <rect x="436" y="290" width="64" height="8" rx="4" fill="#10b981" fill-opacity="0.75" />
+  <rect x="436" y="310" width="96" height="7" rx="3.5" fill="#3f3f46" />
+  <rect x="436" y="336" width="54" height="16" rx="8" fill="#10b981" fill-opacity="0.2" />
+  <rect x="566" y="168" width="110" height="204" rx="12" fill="#18181b" stroke="#27272a" stroke-width="1.5" />
+  <circle cx="596" cy="200" r="14" fill="#27272a" />
+  <rect x="580" y="228" width="82" height="8" rx="4" fill="#3f3f46" />
+  <rect x="580" y="248" width="64" height="8" rx="4" fill="#3f3f46" />
+  <rect x="580" y="286" width="82" height="8" rx="4" fill="#10b981" fill-opacity="0.5" />
+  <rect x="580" y="306" width="52" height="8" rx="4" fill="#3f3f46" />
+  <text x="128" y="404" font-family="ui-monospace, SFMono-Regular, monospace" font-size="15" fill="#71717a" letter-spacing="3">CAPIFRONT / DASHBOARD</text>
+</svg>

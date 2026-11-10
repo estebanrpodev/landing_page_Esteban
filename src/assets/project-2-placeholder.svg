@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Vista previa del proyecto Documeton">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <radialGradient id="glow" cx="76%" cy="22%" r="72%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#27272a" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)" />
+  <rect width="800" height="500" fill="url(#grid)" opacity="0.55" />
+  <rect width="800" height="500" fill="url(#glow)" />
+  <rect x="110" y="78" width="580" height="344" rx="20" fill="#0c0c0e" stroke="#27272a" stroke-width="2" />
+  <rect x="150" y="118" width="500" height="46" rx="23" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+  <circle cx="180" cy="141" r="7" fill="none" stroke="#10b981" stroke-width="2" />
+  <path d="M185 146l8 8" stroke="#10b981" stroke-width="2" stroke-linecap="round" />
+  <rect x="206" y="136" width="150" height="9" rx="4.5" fill="#3f3f46" />
+  <circle cx="212" cy="220" r="28" fill="#18181b" stroke="#10b981" stroke-opacity="0.5" stroke-width="2" />
+  <circle cx="212" cy="212" r="9" fill="#3f3f46" />
+  <path d="M196 236c3-9 10-14 16-14s13 5 16 14" fill="none" stroke="#3f3f46" stroke-width="4" stroke-linecap="round" />
+  <rect x="256" y="202" width="150" height="10" rx="5" fill="#10b981" fill-opacity="0.7" />
+  <rect x="256" y="224" width="110" height="8" rx="4" fill="#3f3f46" />
+  <rect x="256" y="242" width="70" height="8" rx="4" fill="#3f3f46" />
+  <rect x="462" y="200" width="86" height="26" rx="13" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4" />
+  <rect x="150" y="286" width="500" height="1" fill="#27272a" />
+  <circle cx="212" cy="346" r="28" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+  <circle cx="212" cy="338" r="9" fill="#3f3f46" />
+  <path d="M196 362c3-9 10-14 16-14s13 5 16 14" fill="none" stroke="#3f3f46" stroke-width="4" stroke-linecap="round" />
+  <rect x="256" y="328" width="170" height="10" rx="5" fill="#52525b" />
+  <rect x="256" y="350" width="120" height="8" rx="4" fill="#3f3f46" />
+  <rect x="256" y="368" width="80" height="8" rx="4" fill="#3f3f46" />
+  <rect x="462" y="326" width="86" height="26" rx="13" fill="#18181b" stroke="#3f3f46" />
+  <text x="150" y="404" font-family="ui-monospace, SFMono-Regular, monospace" font-size="15" fill="#71717a" letter-spacing="3">DOCUMETON / DATA</text>
+</svg>
